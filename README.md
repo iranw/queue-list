@@ -1,6 +1,6 @@
 ### beanstalkd 与 rabbitmq功能&性能对比
 
-![beanstalkd rabbitmq对比图](https://raw.githubusercontent.com/iranw/queue-list/master/rabbitmqvsbeanstalkd.png)
+针对`beanstalkd`&`rabbitmq`做全面的对比分析，权衡利弊，找出一个最适合自己的队列服务
 
 ##### 功能对比图
 | Item                 |     RabbitMQ |     Beanstalkd |
@@ -25,7 +25,7 @@
 
 [^demo]:发散思想:如果使用rabbitmq来做队列服务，同时又想提升性能，我们使用rabbitmq连接池来减少连接性能损失
 
-注:*目前队列性能测试是通过php来测试的，测试php的性能来间接测试队列服务的性能，不知道有没有方法工具直接测试服务性能的？如果哪位知道，不吝赐教*
+注:*目前队列性能测试是通过php cli来测试的，测试php的性能来间接测试队列服务的性能，不知道有没有方法工具直接测试服务性能的？如果哪位知道，不吝赐教*
 
 rabbitmq毕竟是老牌队列服务，功能全面优于beansalkd。beanstalkd作为后起之秀，目前也有很多大多数公司在使用(淘宝使用ing中)。但是由于缺乏高可用等比较敏感的功能，还是有待进一步发展更新。
 
