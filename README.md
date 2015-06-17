@@ -36,6 +36,8 @@ rabbitmq毕竟是老牌队列服务，功能全面优于beansalkd。beanstalkd�
 友情链接
 * [rabbitmq安装手册](https://github.com/iranw/queue-list/blob/master/rabbitmq-install.md)
 * [beanstalkd安装手册](https://github.com/iranw/queue-list/blob/master/beanstalkd-install.md)
+* [rabbitmq高可用](http://geewu.gitbooks.io/rabbitmq-quick/content/RabbitMQ%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%BE%E7%BD%AE%E4%B8%8E%E9%AB%98%E5%8F%AF%E7%94%A8%E6%80%A7%E8%AE%A8%E8%AE%BA.html)
+* [Rabbitmq手册](http://geewu.gitbooks.io/rabbitmq-quick/content/index.html)
 
 
 感谢[@驼神]()指点
