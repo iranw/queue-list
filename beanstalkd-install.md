@@ -1,6 +1,10 @@
 # ubuntu 安装 beanstalkd 服务
-1、直接源码apt-get安装
+
+
+###### 1、直接源码apt-get安装
+```
 sudo apt-get install beanstalkd
+```
 
 2、编辑/etc/default/beanstalkd
 BEANSTALKD_LISTEN_ADDR=0.0.0.0 #测试使用后，正式环境不能开启监听所有ip
