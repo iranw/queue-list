@@ -18,6 +18,7 @@
 #make
 #make install
 ```
+![https://raw.githubusercontent.com/iranw/queue-list/master/erlang.png](https://raw.githubusercontent.com/iranw/queue-list/master/erlang.png)
 
 ###### 4、环境设置
 ```
