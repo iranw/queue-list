@@ -1,4 +1,4 @@
-ubuntu 安装 beanstalkd 服务
+# ubuntu 安装 beanstalkd 服务
 1、直接源码apt-get安装
 sudo apt-get install beanstalkd
 
