@@ -2,11 +2,18 @@
 
 ![beanstalkd rabbitmq对比图](https://raw.githubusercontent.com/iranw/queue-list/master/rabbitmqvsbeanstalkd.png)
 
-| Item                          |              Value |              Value | Qty  |
-| :-----------------------------|-------------------:|-------------------:| :--: |
-| Computer                      |           1600 USD |           1600 USD |  5   |
-| Phone                         |             12 USD |             12 USD |  12  |
-| Pipe                          |              1 USD |              1 USD | 234  |
+##### 功能对比图
+| Item                          |              RabbitMQ |         Beanstalkd |
+| :-----------------------------|----------------------:|-------------------:|
+| 持久化                        |                   Yes |               Yes  |
+| 分布式                        |                   Yes |               Yes  |
+| 高可用                        |                   Yes |                No  |
+| 路由定制                      |                   Yes |                No  |
+| Get定制                       |                   Yes |                No  |
+| 认证                          |                   Yes |                No  |
+| 管理客户端                    |              自带(强) |         第三方(弱) |
+| 双向解耦(RPC)                 |                   Yes |                No  |
+| php扩展                       |                   Yes |        Yes(弱 bug) |
 
 
 注:*目前队列性能测试是通过php来测试的，测试php的性能来间接测试队列服务的性能，不知道有没有方法工具直接测试服务性能的？如果哪位知道，不吝赐教*
