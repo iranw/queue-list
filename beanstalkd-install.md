@@ -18,25 +18,22 @@ START=yes                                   #是否开机启动
 
 ###### 3、启动方式
 ```
-#/etc/init.d/beanstalkd start   #方法1
-#service beanstalkd start       #方法2
+#/etc/init.d/beanstalkd start                                       #方法1
+#service beanstalkd start                                           #方法2
 #/usr/bin/beanstalkd -l 0.0.0.0 -p 11300 -b /var/lib/beanstalkd     #方法3
 ```
-注释：无法使用stop停止服务，可以直接kill进程停止
+`注释`：无法使用stop停止服务，可以直接kill进程停止
 
 
 ###### 4、管理方式
-* a、使用chrome扩展管理：https://chrome.google.com/webstore/detail/beanstalkd-dashboard/dakkekjnlffnecpmdiamebeooimjnipm
-* b、使用php管理工具管理：https://github.com/jimbojsb/bstools
-
+* a、使用chrome扩展管理：[https://chrome.google.com/webstore/detail/beanstalkd-dashboard/dakkekjnlffnecpmdiamebeooimjnipm](https://chrome.google.com/webstore/detail/beanstalkd-dashboard/dakkekjnlffnecpmdiamebeooimjnipm)
+* b、使用php管理工具管理：[https://github.com/jimbojsb/bstools](https://github.com/jimbojsb/bstools)
 
 `注`：关于beanstalkd分布式，是采用客户端分布式路由的，服务器直接并不知道彼此存在，相互透明
-
 
 友情链接
 * [rabbitmq安装手册](https://github.com/iranw/queue-list/blob/master/rabbitmq-install.md)
 * [beanstalkd VS rabbitMQ 功能对比](https://github.com/iranw/queue-list)
 
-
 ---------
-感谢阅读这份测试文档。如果对您有用或者以后可能用的上的话。请点个`赞`，轻轻一点是对作者最大的支持
+感谢阅读这份帮助文档。如果对您有用或者以后可能用的上的话。请点个`赞`，轻轻一点是对作者最大的支持
